@@ -26,3 +26,9 @@ puts instructor.greeting
 student = Student.new("Cristina")
 puts student.greeting 
 
+instructor.teach
+
+student.learn 
+
+student.teach # this doesn't work because the teach method belongs to the instructor (instance method)
+
